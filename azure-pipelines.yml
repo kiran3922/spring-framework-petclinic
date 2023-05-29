@@ -12,6 +12,8 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
+    mavenDirectory: 'C:\Program Files\Maven'
+    mavenSetM2Home: 'C:\Program Files\Maven\apache-maven-3.9.2'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
