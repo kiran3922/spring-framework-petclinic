@@ -13,8 +13,6 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenVersionOption: '3.9.2'
-    mavenDirectory: 'C:\Program Files\Maven'
-    mavenSetM2Home: 'C:\Program Files\Maven\apache-maven-3.9.2\bin'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
